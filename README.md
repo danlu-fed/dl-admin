@@ -18,9 +18,9 @@ import "dl-design-admin/widgets"
 ## components API
 
 ### Views
-- [spin](./doc/spin.md "v-spin")        部区块加载中
-- [alert](./doc/alert.md "v-alert")     警告提示
-- [message](./doc/message.md "message") 全局提示
+- [spin](./doc/spin.md "v-spin")
+- [alert](./doc/alert.md "v-alert")
+- [message](./doc/message.md "message")
 
 ## Thank
 
