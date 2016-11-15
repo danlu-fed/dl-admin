@@ -1,0 +1,41 @@
+{
+  "name": "dl-design-admin",
+  "version": "1.0.0",
+  "description": "a vue components library for danlu opx projact.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danlu-fed/dl-design-admin.git"
+  },
+  "keywords": [
+    "vue",
+    "admin",
+    "ant-design"
+  ],
+  "dependencies": {
+    "vue": "^1.0.28",
+    "vue-resource": "^0.9.3",
+    "vue-router": "^0.7.13",
+    "classnames": "^2.2.5",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.3",
+    "webpack-hot-middleware": "^2.12.2",
+    "webpack-merge": "^0.14.1"
+  },
+  "author": "jazzysnail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danlu-fed/dl-design-admin/issues"
+  },
+  "homepage": "https://github.com/danlu-fed/dl-design-admin#readme"
+}
