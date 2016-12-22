@@ -11,17 +11,11 @@
       </el-col>
       <el-col :span="21">
         <div class="dl-content">
-          <el-breadcrumb class="dl-breadcrumb" separator="/">
-            <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-            <el-breadcrumb-item>导航一</el-breadcrumb-item>
-            <el-breadcrumb-item>导航二</el-breadcrumb-item>
-            <el-breadcrumb-item>导航三</el-breadcrumb-item>
-          </el-breadcrumb>
-
-          <div class="dl-business">
-            <span>business coding in here</span>
-          </div>
-
+          <transition>
+            <keep-alive>
+              <router-view></router-view>
+            </keep-alive>
+          </transition>
         </div>
       </el-col>
     </el-row>
@@ -48,6 +42,7 @@
         min-height: 720px;
       }
       .dl-content {
+        position: relative;
         background: #fff;
         min-height: 720px;
         .dl-breadcrumb {

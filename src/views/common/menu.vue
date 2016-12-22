@@ -1,8 +1,9 @@
 <template>
   <div>
-    <el-menu default-active="2" class="el-menu-vertical-demo" @open="handleOpen" @close="handleClose">
-      
-      <el-menu-item index="1"><i class="el-icon-menu"></i>首页</el-menu-item>
+    <el-menu default-active="2" class="el-menu-vertical-demo" :router="true">
+      <!-- # -->
+      <el-menu-item index="/home" router="/home" ><i class="el-icon-menu"></i>首页</el-menu-item>
+      <!-- # -->
       <el-submenu index="2">
         <template slot="title"><i class="el-icon-message"></i>导航二</template>
         <el-menu-item-group>
@@ -18,6 +19,7 @@
           <el-menu-item index="1-4-1">选项1</el-menu-item>
         </el-submenu>
       </el-submenu>
+      <!-- # -->
       <el-menu-item index="3"><i class="el-icon-setting"></i>导航三</el-menu-item>
     </el-menu>
   </div>
