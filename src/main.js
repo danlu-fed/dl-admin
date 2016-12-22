@@ -13,6 +13,8 @@ Vue.use(ElementUI)
 
 // Create the router instance and pass the `routes` option
 const router = new Router({
+  mode: 'history',
+  base: __dirname,
   routes: routerMap
 })
 
